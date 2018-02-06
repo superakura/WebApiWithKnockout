@@ -20,8 +20,8 @@ namespace WebApiWithKnockout.Models
         private List<Reservation> data = new List<Reservation>
         {
             new Reservation {ReservationId=1,ClientName="zm",Location="usa" },
-            new Reservation {ReservationId=1,ClientName="ys",Location="china" },
-            new Reservation {ReservationId=1,ClientName="xtz",Location="japan" }
+            new Reservation {ReservationId=2,ClientName="ys",Location="china" },
+            new Reservation {ReservationId=3,ClientName="xtz",Location="japan" }
         };
 
         public IEnumerable<Reservation> GetAll()
